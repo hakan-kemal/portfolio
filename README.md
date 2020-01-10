@@ -1,68 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In order to increase my changes of getting hired I decided to create my own impressive portfolio website. My portfolio aims to showcase my current skill level and present my completed projects.
 
-## Available Scripts
+## My portfolio website is currently under construction and the readme will follow.
 
-In the project directory, you can run:
+Some contents of the README could be:
 
-### `npm start`
+A description of the goal and purpose of the website:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- The goal of the website explained in a concise sentence and list the functionalities.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- The purpose of the website also explained in a concise sentence.
 
-### `npm test`
+- What is it? Clearly, indicate what the code is supposed to produce. Is it a web, desktop, mobile app, game, or a library?
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Used technologies?: List all important framework and libraries that contribute to this project.
 
-### `npm run build`
+- What is the ambition of the project? Are you just test-driving a technology or is it something that is or will go live somewhere?
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- What is the stage of the project? Clearly, indicate where you are with it. Whether it is complete or a work in progress? If it's a work in progress indicate what is done and what is pending.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- List any known issues or things that are not working or not properly done? If so, please list them because people will be much more tolerant when and if they find shortcomings that have been highlighted than if the person discovers themselfs. Always be clear and honest about you code.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- A clear and precise explanation of how to run.
 
-### `npm run eject`
+- Running a demo version of your project must one-liner activity such as npm run, serve, docker run, etc. Or what is used by the framework.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Above list is not an exhaustive list but it shows some important contents that the readme should contain.

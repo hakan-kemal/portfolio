@@ -10,7 +10,7 @@ export default function Home() {
         completed projects.
       </p>
       <ul>
-        <li>Short catchy intro with nice image, nice layout, nice design.</li>
+        <li>Will contain an intro with a nice image, nice layout, and nice design.</li>
       </ul>
     </div>
   );
