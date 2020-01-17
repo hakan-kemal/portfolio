@@ -17,10 +17,7 @@ const GlobeIcon = styled(Globe)`
 
 export default function Projects() {
   return (
-    <div>
-      <h4 style={{ marginTop: '100px' }}>
-        Projects page - Designed and coded by Hakan Çuhadar, 2020. All rights reserved.
-      </h4>
+    <div style={{ marginTop: '100px' }}>
       <a
         href='https://github.com/hakan-kemal/space-explorer-client'
         target='_blank'

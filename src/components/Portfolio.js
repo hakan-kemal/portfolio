@@ -3,10 +3,11 @@ import Navigation from './Navigation/Navigation';
 import { Route } from 'react-router-dom';
 import HomeContainer from './Home/HomeContainer';
 import AboutContainer from './About/AboutContainer';
-import SkillsContainer from './Skills/SkillsContainer';
-import ExperienceContainer from './Experience/ExperienceContainer';
+// import SkillsContainer from './Skills/SkillsContainer';
+// import ExperienceContainer from './Experience/ExperienceContainer';
 import ProjectsContainer from './Projects/ProjectsContainer';
-import ContactContainer from './Contact/ContactContainer';
+// import ContactContainer from './Contact/ContactContainer';
+import Footer from './Footer';
 import GlobalStyles from '../styles/Global';
 
 export default class Portfolio extends Component {
@@ -23,14 +24,15 @@ export default class Portfolio extends Component {
   render() {
     return (
       <Fragment>
+        <GlobalStyles />
         <Navigation navState={this.state.navOpen} handleNav={this.handleNav} />
         <Route path='/' component={HomeContainer} exact />
         <Route path='/about' component={AboutContainer} />
-        <Route path='/skills' component={SkillsContainer} />
-        <Route path='/experience' component={ExperienceContainer} />
+        {/* <Route path='/skills' component={SkillsContainer} />
+        <Route path='/experience' component={ExperienceContainer} /> */}
         <Route path='/projects' component={ProjectsContainer} />
-        <Route path='/contact' component={ContactContainer} />
-        <GlobalStyles />
+        {/* <Route path='/contact' component={ContactContainer} /> */}
+        <Footer />
       </Fragment>
     );
   }

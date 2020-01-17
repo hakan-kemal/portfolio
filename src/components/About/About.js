@@ -2,8 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div>
-      <h4 style={{ marginTop: '100px' }}>Portfolio Website - About page</h4>
+    <div style={{ marginTop: '100px' }}>
       <p>
         Write a paragraph about myself, explaining in short my background (culturally and
         interests), my experiences, my achievements, what am I proud of. Talk about my hobbies,
