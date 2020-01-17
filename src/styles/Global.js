@@ -14,7 +14,8 @@ const GlobalStyles = createGlobalStyle`
   // }
 
   html {
-    font-size: 100%;
+    font-size: 80%;
+    color: #2d3436;
   }
 
   body {

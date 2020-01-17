@@ -4,9 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
-/components/experience
-/components/skills
-/components/contact
+/src/components/experience
+/src/components/skills
+/src/components/contact
 
 # testing
 /coverage

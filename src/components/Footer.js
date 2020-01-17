@@ -19,7 +19,7 @@ const MailSendIcon = styled(MailSend)`
   height: 50px;
 `;
 const Wrapper = styled.footer`
-  position: fixed;
+  position: absolute;
   bottom: 5px;
   left: 0;
   right: 0;
@@ -45,7 +45,7 @@ export default function Footer() {
       <a href='mailto:h.k.cuhadar@gmail.com'>
         <MailSendIcon />
       </a>
-      <h4>My Portfolio - Designed and coded by Hakan Çuhadar, {year}.</h4>
+      <h4>Portfolio - Designed and coded by Hakan Çuhadar, {year}.</h4>
     </Wrapper>
   );
 }
