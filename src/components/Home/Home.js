@@ -1,17 +1,23 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const Header = styled.div`
+  margin-top: 100px;
+`;
 
 export default function Home() {
   return (
-    <div>
-      <h4 style={{ marginTop: '100px' }}>Portfolio Website - Home page</h4>
+    <Header>
+      <p>Hi I'm Hakan Kemal Çuhadar</p>
+      {/* <p>
+        Thanks for visiting my portfolio website, this website aims to showcase my current skill
+        level and present my coding projects.
+      </p> */}
       <p>
-        In order to increase my changes of getting hired I decided to create my own impressive
-        portfolio website. My portfolio aims to showcase my current skill level and present my
-        completed projects.
+        I like to code, am curious about technology, and love to create digital products. Currently
+        available for new oppurtunities in the digital technology field as a Junior Developer.
       </p>
-      <ul>
-        <li>Will contain an intro with a nice image, nice layout, and nice design.</li>
-      </ul>
-    </div>
+      {/* Will contain an intro with a nice image, nice layout, and nice design. */}
+    </Header>
   );
 }

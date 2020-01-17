@@ -1,45 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import { useSpring, animated, config } from 'react-spring';
-
 import Logo from './Logo';
 import Burger from './Burger';
 import Menu from './Menu';
-
-export default function Navigation(props) {
-  const barAnimation = useSpring({
-    from: { transform: 'translate3d(0, -10rem, 0)' },
-    transform: 'translate3d(0, 0, 0)'
-  });
-
-  const linkAnimation = useSpring({
-    from: { transform: 'translate3d(0, 30px, 0)', opacity: 0 },
-    to: { transform: 'translate3d(0, 0, 0)', opacity: 1 },
-    delay: 800,
-    config: config.wobbly
-  });
-
-  return (
-    <>
-      <NavBar style={barAnimation}>
-        <FlexContainer>
-          <Logo />
-          <NavLinks style={linkAnimation}>
-            <a href='/about'>About</a>
-            <a href='/skills'>Skills</a>
-            <a href='/experience'>Experience</a>
-            <a href='/projects'>Projects</a>
-            <a href='/contact'>Contact</a>
-          </NavLinks>
-          <BurgerWrapper>
-            <Burger navState={props.navState} handleNav={props.handleNav} />
-          </BurgerWrapper>
-        </FlexContainer>
-      </NavBar>
-      <Menu navState={props.navState} handleNav={props.handleNav} />
-    </>
-  );
-}
 
 const NavBar = styled(animated.nav)`
   position: fixed;
@@ -93,3 +57,38 @@ const BurgerWrapper = styled.div`
     display: none;
   }
 `;
+
+export default function Navigation(props) {
+  const barAnimation = useSpring({
+    from: { transform: 'translate3d(0, -10rem, 0)' },
+    transform: 'translate3d(0, 0, 0)'
+  });
+
+  const linkAnimation = useSpring({
+    from: { transform: 'translate3d(0, 30px, 0)', opacity: 0 },
+    to: { transform: 'translate3d(0, 0, 0)', opacity: 1 },
+    delay: 800,
+    config: config.wobbly
+  });
+
+  return (
+    <>
+      <NavBar style={barAnimation}>
+        <FlexContainer>
+          <Logo />
+          <NavLinks style={linkAnimation}>
+            <a href='/about'>About</a>
+            {/* <a href='/skills'>Skills</a>
+            <a href='/experience'>Experience</a> */}
+            <a href='/projects'>Projects</a>
+            {/* <a href='/contact'>Contact</a> */}
+          </NavLinks>
+          <BurgerWrapper>
+            <Burger navState={props.navState} handleNav={props.handleNav} />
+          </BurgerWrapper>
+        </FlexContainer>
+      </NavBar>
+      <Menu navState={props.navState} handleNav={props.handleNav} />
+    </>
+  );
+}

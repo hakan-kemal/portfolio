@@ -4,6 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
+/components/experience
+/components/skills
+/components/contact
 
 # testing
 /coverage

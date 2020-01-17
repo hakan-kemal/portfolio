@@ -1,18 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export default function Burger(props) {
-  return (
-    <Wrapper onClick={props.handleNav}>
-      <div className={props.navState ? 'open' : ''}>
-        <span>&nbsp;</span>
-        <span>&nbsp;</span>
-        <span>&nbsp;</span>
-      </div>
-    </Wrapper>
-  );
-}
-
 const Wrapper = styled.div`
   position: relative;
   padding-top: 0.7rem;
@@ -43,3 +31,15 @@ const Wrapper = styled.div`
     top: -11px;
   }
 `;
+
+export default function Burger(props) {
+  return (
+    <Wrapper onClick={props.handleNav}>
+      <div className={props.navState ? 'open' : ''}>
+        <span>&nbsp;</span>
+        <span>&nbsp;</span>
+        <span>&nbsp;</span>
+      </div>
+    </Wrapper>
+  );
+}
