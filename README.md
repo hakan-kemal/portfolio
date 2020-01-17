@@ -2,7 +2,7 @@
 
 This portfolio aims to showcase my current skill level and present my coding projects.
 
-![portfolio](./src/assets/portfolio.mp4)
+![portfolio](./src/assets/portfolio.gif)
 
 ### Technologies:
 
