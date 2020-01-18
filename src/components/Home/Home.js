@@ -42,6 +42,3 @@ export default function Home() {
     </Header>
   );
 }
-/* <p>Thanks for visiting my portfolio website, this website aims to showcase my current skill level and present my coding projects.</p> */
-/* Will contain an intro with a nice image, nice layout, and nice design. */
-/* <img src={'https://source.unsplash.com/1280x800/?programming,coding'} alt='Random coding' /> */
