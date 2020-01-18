@@ -1,24 +1,33 @@
 import React from 'react';
 import styled from 'styled-components';
-import { LogoGithub } from 'styled-icons/octicons/LogoGithub';
-import { Globe } from 'styled-icons/boxicons-regular/Globe';
+// import { LogoGithub } from 'styled-icons/octicons/LogoGithub';
+// import { Globe } from 'styled-icons/boxicons-regular/Globe';
 
-const LogoGithubIcon = styled(LogoGithub)`
-  color: #2d3436;
-  height: 50px;
-  margin: 0 10px;
-`;
+// const LogoGithubIcon = styled(LogoGithub)`
+//   color: #2d3436;
+//   height: 50px;
+//   margin: 0 10px;
+// `;
 
-const GlobeIcon = styled(Globe)`
-  color: #2d3436;
-  height: 50px;
-  margin: 0 10px;
+// const GlobeIcon = styled(Globe)`
+//   color: #2d3436;
+//   height: 50px;
+//   margin: 0 10px;
+// `;
+
+const Main = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  z-index: 1;
 `;
 
 export default function Projects() {
   return (
-    <div style={{ marginTop: '100px' }}>
-      <a
+    <Main>
+      {/* <a
         href='https://github.com/hakan-kemal/space-explorer-client'
         target='_blank'
         rel='noopener noreferrer'
@@ -62,8 +71,8 @@ export default function Projects() {
         <li>Real world project: My IMP Trainer</li>
         <li>Individual assignment: TicketSwap Clone</li>
         <li>Game project: Memory Card Game</li>
-      </ul>
-    </div>
+      </ul> */}
+    </Main>
   );
 }
 

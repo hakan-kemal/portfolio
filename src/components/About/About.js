@@ -20,7 +20,7 @@ export default function About() {
       {/* <p className='paragraph'>
         <strong>Github:</strong>Junior Developer; JavaScript, React, Redux, Node, Express &
         PostgreSQL. Previously Aerospace Engineer, skilled in math, physics, and great with numbers!
-      </p> */}
+      </p>
       <p className='paragraph'>
         Recently graduated full stack developer embarking on a new journey in the digital technology
         field as a Junior Developer. My drive to succeed stems from my passion and curiosity for
@@ -45,7 +45,7 @@ export default function About() {
           LinkedIn
         </a>{' '}
         profiles, and don't forget to connect ;&#41;
-      </p>
+      </p> */}
     </Header>
   );
 }
