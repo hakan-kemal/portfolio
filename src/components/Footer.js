@@ -18,11 +18,12 @@ const MailSendIcon = styled(MailSend)`
   color: #fdcb6e;
   height: 50px;
 `;
-const Wrapper = styled.footer`
-  position: absolute;
-  bottom: 5px;
+const Wrapper = styled.div`
+  position: fixed;
   left: 0;
   right: 0;
+  bottom: 10px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 `;
@@ -31,21 +32,23 @@ export default function Footer() {
   const date = new Date();
   const year = date.getFullYear();
   return (
-    <Wrapper>
-      <a href='https://github.com/hakan-kemal' target='_blank' rel='noopener noreferrer'>
-        <GitHubIcon />
-      </a>
-      <a
-        href='https://www.linkedin.com/in/hakan-kemal-cuhadar/'
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        <LinkedInIcon />
-      </a>
-      <a href='mailto:h.k.cuhadar@gmail.com'>
-        <MailSendIcon />
-      </a>
-      <h4>Portfolio - Designed and coded by Hakan Çuhadar, {year}.</h4>
-    </Wrapper>
+    <div>
+      <Wrapper>
+        <a href='https://github.com/hakan-kemal' target='_blank' rel='noopener noreferrer'>
+          <GitHubIcon />
+        </a>
+        <a
+          href='https://www.linkedin.com/in/hakan-kemal-cuhadar/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <LinkedInIcon />
+        </a>
+        <a href='mailto:h.k.cuhadar@gmail.com'>
+          <MailSendIcon />
+        </a>
+        <h4>Portfolio - Designed and coded by Hakan Çuhadar, {year}.</h4>
+      </Wrapper>
+    </div>
   );
 }

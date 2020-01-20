@@ -32,7 +32,7 @@ export default class Portfolio extends Component {
         <Route path='/experience' component={ExperienceContainer} /> */}
         <Route path='/projects' component={ProjectsContainer} />
         {/* <Route path='/contact' component={ContactContainer} /> */}
-        <Footer />
+        <Route path='/' component={Footer} exact />
       </Fragment>
     );
   }

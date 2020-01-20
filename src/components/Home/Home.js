@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import img from '../../assets/profile-image.jpg';
 
 const Header = styled.div`
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

@@ -12,11 +12,17 @@ const Header = styled.div`
   .paragraph {
     font-size: 2.2em;
   }
+
+  .header {
+    font-size: 4.4rem;
+    color: #fdcb6e;
+  }
 `;
 
 export default function About() {
   return (
     <Header>
+      <p className='header'>Under construction</p>
       {/* <p className='paragraph'>
         <strong>Github:</strong>Junior Developer; JavaScript, React, Redux, Node, Express &
         PostgreSQL. Previously Aerospace Engineer, skilled in math, physics, and great with numbers!
