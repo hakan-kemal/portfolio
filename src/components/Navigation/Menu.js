@@ -51,30 +51,10 @@ export default function Menu(props) {
       >
         <Links>
           <li>
-            <a href='/about' onClick={props.handleNav}>
-              About
-            </a>
-          </li>
-          {/* <li>
-            <a href='/skills' onClick={props.handleNav}>
-              Skills
-            </a>
-          </li>
-          <li>
-            <a href='/experience' onClick={props.handleNav}>
-              Experience
-            </a>
-          </li> */}
-          <li>
             <a href='/projects' onClick={props.handleNav}>
               Projects
             </a>
           </li>
-          {/* <li>
-            <a href='/contact' onClick={props.handleNav}>
-              Contact
-            </a>
-          </li> */}
         </Links>
       </Wrapper>
     );
