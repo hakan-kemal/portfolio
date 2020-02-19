@@ -77,11 +77,7 @@ export default function Navigation(props) {
         <FlexContainer>
           <Logo />
           <NavLinks style={linkAnimation}>
-            <a href='/about'>About</a>
-            {/* <a href='/skills'>Skills</a>
-            <a href='/experience'>Experience</a> */}
             <a href='/projects'>Projects</a>
-            {/* <a href='/contact'>Contact</a> */}
           </NavLinks>
           <BurgerWrapper>
             <Burger navState={props.navState} handleNav={props.handleNav} />

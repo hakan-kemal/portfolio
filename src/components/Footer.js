@@ -18,6 +18,7 @@ const MailSendIcon = styled(MailSend)`
   color: #fdcb6e;
   height: 50px;
 `;
+
 const Wrapper = styled.div`
   position: fixed;
   left: 0;
